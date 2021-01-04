@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container{
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+    background-color: grey;
+}
+.container .menu{
+    background-color: indigo;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.container .menu table tr td{
+    width: 300px;
+}
+.container .menu table tr td:nth-child(2){
+    text-align: center;
+}
+.pilih{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pilih input{
+    background-color: #abbaba;
+    width: 100px;
+    border: none;
+}
+
+
